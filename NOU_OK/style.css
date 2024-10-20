@@ -71,6 +71,32 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+.container2 {
+    width: 50%; /* Ocupa la mitad del ancho del contenedor padre */
+    height: 100vh; /* Opcional: ocupa toda la altura de la ventana */
+    float: left; /* Hace que el contenedor se alinee a la izquierda */
+}
+
+.imagen3 {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original */
+}
+
+.imagen {
+    width: 50%; /* La imagen ocupará el 50% del contenedor */
+    height: auto; /* Mantiene la proporción original */
+}
+
+.container3 {
+    width: 50%; /* Ocupa la mitad del ancho del contenedor padre */
+    height: 100vh; /* Opcional: ocupa toda la altura de la ventana */
+    float: left; /* Hace que el contenedor se alinee a la izquierda */
+}
+.imagen1 {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original */
+}
+
 /* Estils per a les files i columnes */
 .row {
     display: flex;
@@ -115,5 +141,3 @@ footer {
     text-align: center;
     padding: 1px 0;
 }
-
-
